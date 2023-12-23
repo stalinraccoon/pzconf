@@ -1,0 +1,370 @@
+VERSION = 1,
+
+
+
+option RICARDO.AddFuel {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFastActions, translation = AddFuel_Speed_Multiplier,
+}
+
+option RICARDO.DestroyStuff {
+    type = boolean, default = true,
+    page = RicardoFastActions, translation = DestroyStuff_Speed,
+}
+
+option RICARDO.ToggleLightSource {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFastActions, translation = ToggleLightSource_Speed_Multiplier,
+}
+option RICARDO.RemoveLightSourceFuel {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFastActions, translation = RemoveLightSourceFuel_Speed_Multiplier,
+}
+option RICARDO.MultiStageBuild {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFastActions, translation = MultiStageBuild_Speed_Multiplier,
+}
+option RICARDO.InsertLightSourceFuel {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFastActions, translation = InsertLightSourceFuel_Speed_Multiplier,
+}
+
+
+
+option RICARDO.ReadingSpeed {
+    type = boolean, default = true,
+    page = RicardoFA_Skills, translation = BookReading_Speed,
+}
+option RICARDO.BuildAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Skills, translation = BuildAction_Speed_Multiplier,
+}
+option RICARDO.ApplyBandage {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Medical, translation = ApplyBandage_Speed_Multiplier,
+}
+option RICARDO.CleanBlood {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Medical, translation = CleanBlood_Speed_Multiplier,
+}
+
+	
+
+option RICARDO.ChopTree { 
+    type = boolean, default = true,
+    page = RicardoFastActions, translation = ChopTree_Speed,
+}
+option RICARDO.BBQFuel { 
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFastActions, translation = BBQFuel_Speed,
+}
+option RICARDO.Disinfect {
+    type = boolean, default = true,
+    page = RicardoFA_Medical, translation = Disinfect_Speed,
+}
+option RICARDO.CleanBandage {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Medical, translation = CleanBandage_Speed_Multiplier,
+}
+
+option RICARDO.RipClothing {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Tailoring, translation = RipClothing_Speed_Multiplier,
+}
+option RICARDO.RepairClothing {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Tailoring, translation = RepairClothing_Speed_Multiplier,
+}
+option RICARDO.RemovePatch {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Tailoring, translation = RemovePatch_Speed_Multiplier,
+}
+option RICARDO.Stitch {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Medical, translation = Stitch,
+}
+option RICARDO.TakePill {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Medical, translation = TakePill_Speed_Multiplier,
+}
+
+option RICARDO.DismantleAction {
+    type = boolean, default = true,
+    page = RicardoFA_Skills, translation = DismantleAction_Speed,
+}
+
+
+option RICARDO.CureFlies {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Farming, translation = CureFlies_Speed_Multiplier,
+}
+option RICARDO.CureMildew {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Farming, translation = CureMildew_Speed_Multiplier,
+}
+option RICARDO.FertilizeAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Farming, translation = FertilizeAction_Speed_Multiplier,
+}
+option RICARDO.HarvestPlant {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Farming, translation = HarvestPlant_Speed_Multiplier,
+} 
+option RICARDO.PlowAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Farming, translation = PlowAction_Speed_Multiplier,
+}
+option RICARDO.SeedAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Farming, translation = SeedAction_Speed_Multiplier,
+}
+option RICARDO.WaterPlant {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Farming, translation = WaterPlant_Speed_Multiplier,
+}
+option RICARDO.ShovelAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Farming, translation = ShovelAction_Speed_Multiplier,
+}
+
+
+option RICARDO.FishingAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Fishing, translation = FishingAction_Speed_Multiplier,
+}
+option RICARDO.CheckFishingNet {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Fishing, translation = CheckFishingNet_Speed_Multiplier,
+}
+
+
+option RICARDO.AddSheet {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = AddSheet_Speed_Multiplier,
+}
+option RICARDO.BarricadeAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = Barricade_Speed_Multiplier,
+}
+option RICARDO.UnBarricadeAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = UnBarricade_Speed_Multiplier,
+}
+option RICARDO.BuryCorpse {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = BuryCorpse_Speed_Multiplier,
+}
+option RICARDO.CraftAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Skills, translation = CraftAction_Speed_Multiplier,
+}
+option RICARDO.DropWorldItem {
+    type = boolean, default = true,
+    page = RicardoFA_Misc, translation = DropWorldItem_Speed,
+}
+option RICARDO.DryMyself {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = DryMyself_Speed_Multiplier,
+}
+option RICARDO.EatFood {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFastActions, translation = EatFood_Speed_Multiplier,
+}
+option RICARDO.DropItem {
+    type = boolean, default = true,
+    page = RicardoFA_Misc, translation = DropItem_Speed,
+}
+option RICARDO.FillGrave {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = FillGrave_Speed_Multiplier,
+}
+option RICARDO.FixAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = FixAction_Speed_Multiplier,
+}
+option RICARDO.GrabItem {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = GrabItem_Speed_Multiplier,
+}
+option RICARDO.InventoryTransfer {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = InventoryTransfer_Speed_Multiplier,
+}
+option RICARDO.FastMap {
+    type = boolean, default = true,
+    page = RicardoFA_Misc, translation = MapOpen_Speed,
+}
+option RICARDO.MoveablesAction {
+    type = boolean, default = true,
+    page = RicardoFA_Misc, translation = MoveablesAction_Speed,
+}
+option RICARDO.PaintSign {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = PaintSign_Speed_Multiplier,
+}
+option RICARDO.PaintAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = PaintAction_Speed_Multiplier,
+}
+option RICARDO.PickupBrokenGlass {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = PickupBrokenGlass_Speed_Multiplier,
+}
+option RICARDO.PlasterAction {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = PlasterAction_Speed_Multiplier,
+}
+option RICARDO.RemoveBrokenGlass {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = RemoveBrokenGlass_Speed_Multiplier,
+}
+option RICARDO.RemoveGlass {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = RemoveGlass_Speed_Multiplier,
+}
+option RICARDO.RemoveGrass {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = RemoveGrass_Speed_Multiplier,
+}
+option RICARDO.RemoveSheet {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = RemoveSheet_Speed_Multiplier,
+}
+option RICARDO.TakeGenerator {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = TakeGenerator_Speed_Multiplier,
+}
+option RICARDO.TakeFuel {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = TakeFuel_Speed_Multiplier,
+}
+option RICARDO.WashClothing {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = WashClothing_Speed_Multiplier,
+}
+option RICARDO.UpgradeWeapon {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = UpgradeWeapon_Speed_Multiplier,
+}
+option RICARDO.WashYourself {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Misc, translation = WashYourself_Speed_Multiplier,
+}
+
+
+
+option RICARDO.AddGasolineToVehicle {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = AddGasolineToVehicle_Speed_Multiplier,
+}
+option RICARDO.AttachTrailer {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = AttachTrailer_Speed_Multiplier,
+}
+option RICARDO.DeflateTire {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = DeflateTire_Speed_Multiplier,
+}
+option RICARDO.DetachTrailer {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = DetachTrailer_Speed_Multiplier,
+}
+option RICARDO.HotwireVehicle {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = HotwireVehicle_Speed_Multiplier,
+}
+option RICARDO.InflateTire {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = InflateTire_Speed_Multiplier,
+}
+option RICARDO.InstallVehiclePart {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = InstallVehiclePart_Speed_Multiplier,
+}
+option RICARDO.OpenMechanicsUI {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = OpenMechanicsUI_Speed_Multiplier,
+}
+option RICARDO.RechargeCarBattery {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = RechargeCarBattery_Speed_Multiplier,
+}
+option RICARDO.RefuelFromGasPump {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = RefuelFromGasPump_Speed_Multiplier,
+}
+option RICARDO.RemoveBurntVehicle {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = RemoveBurntVehicle_Speed_Multiplier,
+}
+option RICARDO.RepairEngine {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = RepairEngine_Speed_Multiplier,
+}
+option RICARDO.TakeEngineParts {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = TakeEngineParts_Speed_Multiplier,
+}
+option RICARDO.TakeGasolineFromVehicle {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = TakeGasolineFromVehicle_Speed_Multiplier,
+}
+option RICARDO.UninstallVehiclePart {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Vehicles, translation = UninstallVehiclePart_Speed_Multiplier,
+}
+
+
+
+
+option RICARDO.UseBellows {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_BlackSmith, translation = UseBellows_Speed_Multiplier_Multiplier,
+}
+option RICARDO.StopFurnace {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_BlackSmith, translation = StopFurnace_Speed_Multiplier_Multiplier,
+}
+option RICARDO.AddCoal {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_BlackSmith, translation = AddCoal_Speed_Multiplier_Multiplier,
+}
+option RICARDO.AddLogs {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_BlackSmith, translation = AddLogs_Speed_Multiplier_Multiplier,
+}
+option RICARDO.EmptyDrum {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_BlackSmith, translation = EmptyDrum_Speed_Multiplier_Multiplier,
+}
+option RICARDO.RemoveCharcoal {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_BlackSmith, translation = RemoveCharcoal_Speed_Multiplier_Multiplier,
+}
+
+
+
+option RICARDO.AddBait {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Traping, translation = AddBait_Speed_Multiplier,
+}
+option RICARDO.CheckTrap {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Traping, translation = CheckTrap_Speed_Multiplier,
+}
+option RICARDO.RemoveTrap {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Traping, translation = RemoveTrap_Speed_Multiplier,
+}
+option RICARDO.RemoveBait {
+    type = integer, default = 5, min = 1, max = 10,
+    page = RicardoFA_Traping, translation = RemoveBait_Speed_Multiplier,
+}
+
+option RICARDO.ReloadSpeed {
+    type = integer, default = 1, min = 1, max = 1,
+    page = RicardoFA_Guns, translation = Reload_Speed_Multiplier_Multiplier (set 1 for vanilla),
+}
+
+
+
